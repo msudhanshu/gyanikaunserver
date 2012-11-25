@@ -17,7 +17,7 @@ INSERT INTO `introductions` VALUES (1,'Hi','Hello World'),(2,'Bye','Good Night T
 DROP TABLE IF EXISTS `questionbank`;
 DROP TABLE IF EXISTS `questionbanks`;
 CREATE TABLE `questionbanks` (
-  `quest_id` int unsigned NOT NULL ,
+  `quest_id` int unsigned NOT NULL AUTO_INCREMENT,
   `question` varchar(200) DEFAULT NULL,
   `option_a` varchar(50) DEFAULT NULL,
   `option_b` varchar(50) DEFAULT NULL,

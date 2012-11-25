@@ -44,7 +44,7 @@ class Controller_Questionbank extends Controller {
 		
 		}
 		
-			public function action_showQuestionForm(){
+	public function action_showQuestionForm(){
 			print "manjeet";
 			   $view = new View('addquestion'); // loads the 'article/index.php' file under 'application/view' folder
 				$view->set("data","Add Question : ");
